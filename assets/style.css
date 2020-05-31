@@ -111,6 +111,7 @@ section.hero::before {
 
 .content-wrapper {
     width: 90%;
+    margin-bottom: 20px;
 }
 
 .title-section h3 {
@@ -128,6 +129,10 @@ section.hero::before {
 .content-section {
     width: 70%;
     margin-left: 25px;
+}
+
+.content-section li {
+    display: inline;
 }
 
 .content-section p {
@@ -164,7 +169,7 @@ section.hero::before {
     background-color: aquamarine;
     grid-column-start: auto;
     grid-column-end: auto;
-    
+    background-size: cover;
 }
 
 .grid-item:hover{
@@ -193,14 +198,17 @@ section.hero::before {
 
 .item-3 {
     grid-row: 3 / span 2;
+    background-image: url(../Images/Surf-Report.png);
 }
 
 .item-4{
     grid-row: 5 / span 2;
+    background-image: url(../Images/LEDWall-Screenshot.png);
 }
 
 .item-5 {
     grid-row: 5 / span 2;
+    background-image: url(../Images/CalculatorApp-Screenshot.png);
 }
 
 .work-grid a {
@@ -213,6 +221,7 @@ section.hero::before {
     background-color: var(--secondary-color);
     padding: 5px;
     border-radius: 2px;
+    font-size: 25px;
 }
 
 

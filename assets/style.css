@@ -66,7 +66,6 @@ header nav ul li a:hover {
 
 
 /* Hero styles start */
-/* Hero Style Start */
 
 .hero {
     display: flex;
@@ -119,18 +118,6 @@ section.hero::before {
     margin-bottom: 20px;
 }
 
-.title-section h3 {
-    color: var(--secondary-color);
-}
-
-.title-section {
-    width: 30%;
-    border-right: 2px solid var(--secondary-color);
-    padding-right: 25px;
-    text-align: right;
-    font-size: 35px;
-}
-
 .content-section {
     width: 70%;
     margin-left: 25px;
@@ -149,23 +136,28 @@ section.hero::before {
     font-size: 20px;
 }
 
-.contact a {
-    color: var(--secondary-color);
-    font-size: 20px;
-}
-
 .content-section p {
     line-height: 1.3;
 }
+/* content styles end */
 
-.group {
-    margin-top: 20px;
+/* title section styles */
+
+.title-section {
+    width: 30%;
+    border-right: 2px solid var(--secondary-color);
+    padding-right: 25px;
+    text-align: right;
+    font-size: 35px;
 }
 
-.section-row {
-    display: flex;
+.title-section h3 {
+    color: var(--secondary-color);
 }
 
+/* title section styles end */
+
+/* Work grid styles start */
 .work-grid {
     display: grid;
     height: 400px;
@@ -243,67 +235,25 @@ section.hero::before {
     font-size: 25px;
 }
 
-
-
-
-
-
-/*  content styles end */
-
-/* panel styles */
-.left-panel {
-    position: relative;
-}
-
-.left-panel::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.9;
-    z-index: -1;
-}
-
 .work {
     margin: 0 auto 20px auto;
     color: var(--secondary-color);
     flex: 1;
 }
 
-/* .work-group {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} */
+/* work grid styles end */
 
-/* .work-img {
-    width: 100%;
-    min-height: 300px;
-    display: flex;
-    padding: 15px;
-    align-items: flex-end;
-    background-size: cover;
-    position: relative;
-    overflow: auto;
-} */
-/* 
-.work-img::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color));
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 2s;
-} */
 
-/* .work-img h3 {
-    position: relative;
-    z-index: 999;
-    top:200px;
-    transition: 0.6s;
-} */
+
+.contact a {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+.group {
+    margin-top: 20px;
+}
+
+.section-row {
+    display: flex;
+}

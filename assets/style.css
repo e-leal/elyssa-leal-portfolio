@@ -134,6 +134,7 @@ section.hero::before {
     margin-right: 30px;
     color: var(--secondary-color);
     font-size: 20px;
+    line-height: 1.5;
 }
 
 .content-section p {
@@ -258,7 +259,7 @@ section.hero::before {
     display: flex;
 }
 
-/* media queries styles */
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     header {
@@ -352,5 +353,11 @@ section.hero::before {
     .content-section {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .content-section li {
+        display: block;
+        text-align: center;
+        line-height: 1.5;
     }
 }

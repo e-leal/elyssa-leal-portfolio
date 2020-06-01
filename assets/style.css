@@ -261,6 +261,11 @@ section.hero::before {
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .title-section h3 {
+        font-size: 25px;
+    }
+}
 @media screen and (max-width: 768px) {
     header {
         justify-content: center;

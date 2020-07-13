@@ -191,7 +191,7 @@ section.hero::before {
 .item-1 {
     grid-column: 1 / span 2;
     grid-row: 1 /span 4;
-    background-image: url(../Images/RunBuddy-Screenshot2.png);
+    background-image: url(../Images/WorthMyTime_Screenshot.png);
     transition: 2s;
 }
 
@@ -205,12 +205,12 @@ section.hero::before {
 
 .item-2 {
     grid-row: 1 / span 2;
-    background-image: url(../Images/Horiseon_Screenshot2.png);
+    background-image: url(../Images/RunBuddy-Screenshot2.png);
 }
 
 .item-3 {
     grid-row: 3 / span 2;
-    background-image: url(../Images/Surf-Report.png);
+    background-image: url(../Images/Horiseon_Screenshot2.png);
 }
 
 .item-4{

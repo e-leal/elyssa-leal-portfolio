@@ -220,7 +220,7 @@ section.hero::before {
 
 .item-5 {
     grid-row: 5 / span 2;
-    background-image: url(../Images/CalculatorApp-Screenshot.png);
+    background-image: url(../Images/certainly-screenshot.png);
 }
 
 .work-grid a {
